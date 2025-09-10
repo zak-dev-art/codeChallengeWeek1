@@ -2,7 +2,7 @@
 function getGrossSalary(basic, benefits){
     return basic + benefits;
 }
-// Function to calculate NSSF(6% of basic salary, max pensionable = 72,000)
+// Function to calculate NSSF(6% of basic salary,max pensionable = 72,000)
 function calculateNSSF(basic) {
     let maxPensionable = 72000;
     let pensionablePay = basic > maxPensionable ? maxPensionable : basic;
@@ -35,7 +35,7 @@ return paye < 0 ? 0 : paye;
 
 // Function to format currency
 function formatKsh(value) {
-return "Ksh " + value.toFixed(2);
+return "Ksh "+ value.toFixed(2);
 }
 
 // Main function
@@ -47,7 +47,6 @@ if (isNaN(basic) || isNaN(benefits)) {
     console.log("Invalid input.");
     return;
 }
-
 let gross = getGrossSalary(basic, benefits);
 let nssf = calculateNSSF(basic);
 let shif = calculateSHIF(gross);
