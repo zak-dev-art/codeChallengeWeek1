@@ -57,8 +57,8 @@ You use git clone to be able to download the documents in the GitHub
 - Kenyan tax calculation compliance
 
 # Support and Contact Details  
-- GitHub: github.com/your-username  
-- Email: your.email@example.com
+- GitHub: github.com/zak-dev-art  
+- Email: zachndungu861@gmail.com
 
 # License  
 The content of this site is licensed under the MIT license  
